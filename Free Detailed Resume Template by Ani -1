@@ -1,0 +1,265 @@
+%-------------------------
+% Resume in Latex
+% Author : Anirudhha Sankhe
+% Based off of: https://github.com/Ani-Sankhe/Resume-Latex-Code-Free-Templates-By-Ani
+% License : ANI
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    {\Huge \scshape ANIRUDHHA SANKHE} \\ \vspace{1pt}
+    Mumbai,Maharshtra,India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-9920802112 ~ \href{info.anirudhhasankhe@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{info.anirudhhasankhe@gmail.com}} ~ 
+    \href {linkedin.com/in/anirudhha-sankhe}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/anirudhha-sankhe}}  ~
+    \href{github.com/Ani-Sankhe}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Ani-Sankhe}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sardar Patel College of Engineering- Affiliated to the University of Mumbai}{July 2023}
+      {\textbf{}Bachelors of Technology B. Tech- Mechanical Engineering \textbf{CGPA: 8.40/10} }{Mumbai, Maharashtra}
+      
+      {\textbf{Relevant Courses}: Industrial Engineering and Management with ERP, Supply chain Management, Project Management, Artificial Intelligence, Machine Learning, DBMS, Organizational Communication skills, Resource Management, Design thinking, Machine Design, Internal Combustion Engine, RAC.}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical/Managerial Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C,C++,Python,Java,SQL,Q-Basic Script} \\
+     \textbf{Tools}{: VS Code, Eclipse, Google Co-lab, Jupyter, GitHub,WordPress,Arduino,}\textbf{Power -Bi,}\textbf{ MS-Excel, }\textbf{Basic SAP Framework knowledge, Advanced Ms-Excel Fundamentals} \\
+     \textbf{Design: }{Auto cad, Catia,Canva,}\textbf{ MS-Office Suite ,learning Figma basics} \\
+     \textbf{Finance, Managerial: }{Leadership, Production Management, Scheduling, Time Management, Resource management, Risk Assessment, Project Planning, Design Thinking,Market watch tools like Trading view, Market share analysis.} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Dar}{Aug 2023 -- Present}
+      {\textbf{Project Design and Management Engineer (GET) Full-Time}}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Organized,tabulated and completed the modules related to project and company guidelines related to
+BOQ’s,HVAC,BMS,Project technical Procurements,SAP MM,Engineering layout process and various equipment’s.}
+        \resumeItem{Comprehended Rev-it Boot camp, Automation BMS PLC.}
+        \resumeItem{Utilized an on project learning opportunity,Project 1 Name: Dubai International - Concourse D. Project 2 Name :Arab
+Potash Company - Plant Optimization and Production Expansion}
+\resumeItem{Evaluated the Project technical documents to draft project parameters.}
+ \resumeItem{\textbf{Skills acquired:Root Cause Analysis, Quality System,
+Documentation,Project Planning and Execution,Risk Analysis,Supplier Selection, Price Optimization, Supplier Risk Management,Strategic Sourcing,Negotiation 
+Project Management,Supplier Management,Benchmarking, Project Presentation}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Coffee Beans LLP}{Dec 2022 -- March 2023}
+      {\textbf{Data Science and Machine Learning Intern}}{Mumbai, Remote}
+      \resumeItemListStart
+        \resumeItem{Data Visualization: Power-BI Tool to prepare dashboard from various health sensors data.}
+        \resumeItem{Communication of important updates from PM to the Engineer on timely basis.}
+        \resumeItem{Record of Live Feed Data: Documented the sensor chart for tracking data source in line.}
+        \resumeItem{\textbf{Skills acquired: Python, GitHub, SQL, Jupyter, PowerBI, Sensor Optimization, IOT, Data Analytics, Team-work.}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Adani Airports: Mumbai International Airport Limited (MIAL) }{Jun 2021 -- Nov 2021}
+      {\textbf{Project Operations Intern}}{Andheri,Mumbai,Maharashtra, India}
+      \resumeItemListStart
+        \resumeItem{Prepared Work break down structures for project co-ordination,hierarchy in a way increasing preparedness and response to timely maintenance schedules by 0.25.As a responsibility change worked on optimization of supply chain for air-side infra services maintenance.}
+        \resumeItem{Observed and Assisted the General Manager(operations) to prepare inventory charts, Schedule charts, maintenance charts. Prepared a documented excel file to store all SAP procurement codes to be referred in future, Got an idea of the SAP framework.}
+        \resumeItem{\textbf{Skills acquire: MS-Excel, HVAC, BMS, Procurement Portals, Agile, Piping, Supply Chain Mgmt, Efficiency, Supplier management, SAP MM basic, Site safety, Customer/Passenger Feedback.}}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-2pt}
+     \resumeItemListStart
+            \resumeItem{Supply chain management Product Analysis report preparation on prominent Oil and Gas corporations \textbf{(02/2023 - 06/2023)} Prepared this report as the part of the supply chain management course undertaken in college.}
+            \resumeItem{A Neural Network Classifier \textbf{(10/2022 - 12/2022)} Used Neural Network Classifier to detect Accident Prone Spots on the Given Map of delivery spots w.r.t to weighted sums of different spots on it.}
+            \resumeItem{Developed a gearbox to deliver 42 kW power with a power efficiency of 0.95,The steady sate input speed was 1500 rpm and the steady state output speed was 268 rpm. The gears involved were helical and the gear-train was a two-stage reverted one. \textbf{(09/2022-12/2022)}.}
+            \resumeItem{College CMS Attendance + Salary System \textbf{(05/2020 - 07/2020)} A program that used Scanner Class to show the defaulter employee. }
+            \resumeItem{To study the influence of loading frequency and range of stress intensity factor on the crack growth rate. Title: Prediction of crack growth rate using supervised learning algorithm by prediction model \textbf{(10/2022 - 12/2022)}}
+            \resumeItem{DMMS - gearbox - fault-diagnosis-dataset: Classification model for predicting gear tooth failure using time-series method\textbf{(10/2022-12/2022)}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+          %-----------Publications-----------
+\section{Publications}
+    \vspace{-2pt}
+     \resumeItemListStart
+            \resumeItem{Linked-In for Young Professional Product Marketing Case Study: A product Case Study.}
+            \resumeItem{Research Abstract Submitted to MNIT, Jaipur Sustainability Conference on Title: Design and fabrication of a Waste to Energy converter and shredder system; it's optimization by implementing Machine Learning using Transfer Learning approach and feed analysis. Monetized the design by implementing with SP Jain Mumbai}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+%
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Training and Placement Co-coordinator}{Jun 2022- Jun 2023} { Sardar Patel College of Engineering }
+
+    \resumeSubHeadingListEnd
+
+    %-----------PROJECTS-----------
+\section{Hobbies}
+    \vspace{-2pt}
+     \resumeItemListStart
+            \resumeItem{Stock market Analysis, Learner on BSE NSE, Swimming, Trumpet, Football, I practice Swimming, Lifts in free time.}
+            \resumeItemListEnd 
+          \vspace{-13pt}
+          \section{Language}
+    \vspace{-2pt}
+     \resumeItemListStart
+            \resumeItem{Marathi, English, Hindi, Gujarati (In order of Proficiency)}
+            \resumeItemListEnd 
+          \vspace{-13pt}
+          \section{Certifications}
+    \vspace{-0pt}
+     \resumeItemListStart
+            \resumeItem{Project Management and Data Analytics by Google}
+            \resumeItemListEnd 
+             \resumeItemListStart
+            \resumeItem{Supply Chain Fundamentals by Rutgers University}
+            \resumeItemListEnd 
+             \resumeItemListStart
+            \resumeItem{Introduction to Machine Learning by Duke University}
+            \resumeItemListEnd 
+            \resumeItemListStart
+            \resumeItem{Product Management 101 Udemy}
+            \resumeItemListEnd 
+            \resumeItemListStart
+            \resumeItem{Scrum Master Pursuing}
+            \resumeItemListEnd 
+            \vspace{-1pt}
+             \vspace{-13pt}
+             \section{Achievements}
+    \vspace{-0pt}
+     \resumeItemListStart
+            \resumeItem{Got a rank within top 1000 in MHT-CET 2019 Rank- 933 among 5 lac students in Maharashtra, \textbf{(05/2019)}}
+            \resumeItemListEnd 
+             \resumeItemListStart
+            \resumeItem{Silver Medalist at District - Level Swimming competition, \textbf{(09/2018)}}
+            \resumeItemListEnd 
+             
+    
+\end{document}
